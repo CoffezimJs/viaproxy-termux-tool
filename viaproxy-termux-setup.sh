@@ -28,3 +28,4 @@ vncserver -localhost
 export DISPLAY=:0
 fluxbox &
 echo Next, execute: java -jar ViaProxy
+echo execute vncpasswd password
