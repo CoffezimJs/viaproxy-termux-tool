@@ -14,7 +14,7 @@ clear
 
 wget https://raw.githubusercontent.com/CoffezimJs/viaproxy-termux-tool/main/vp.sh
 
-chmod 777 vp.sh
+dos2unix vp.sh
 
 clear
 
