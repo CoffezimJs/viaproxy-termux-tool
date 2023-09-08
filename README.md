@@ -14,6 +14,6 @@ git clone https://github.com/CoffezimJs/viaproxy-termux-tool
 
 cd viaproxy-termux-tool
 
-chmod 777 
+chmod 777 or dos2unix some.sh file
 
 and ./some.sh file
