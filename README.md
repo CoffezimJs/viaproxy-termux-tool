@@ -8,12 +8,6 @@ vp.sh serves to simplify the use of the cli
 
 just do the commands below 
 
-pkg install git 
+curl -o cli.sh https://raw.githubusercontent.com/CoffezimJs/viaproxy-termux-tool/main/cli.sh && chmod +x cli.sh && ./cli.sh
 
-git clone https://github.com/CoffezimJs/viaproxy-termux-tool
 
-cd viaproxy-termux-tool
-
-chmod 777 or dos2unix some.sh file
-
-and ./some.sh file
