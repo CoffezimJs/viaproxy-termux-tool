@@ -15,7 +15,7 @@ read use_legacy
 echo "Use online mode? Y/n"
 read use_online_mode
 
-java_command="java -jar ViaProxy-3.0.20.jar --bind_port 25568 --target_ip $target_ip --target_port $target_port --version $version"
+java_command="java -jar ViaProxy-3.0.21.jar --bind_port 25568 --target_ip $target_ip --target_port $target_port --version $version"
 
 if [ "$use_legacy" == "Y" ] || [ "$use_legacy" == "y" ]; then
     java_command="$java_command --legacy_passthrough"
