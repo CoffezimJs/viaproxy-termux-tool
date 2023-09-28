@@ -8,7 +8,7 @@ vp.sh serves to simplify the use of the cli
 
 just do the commands below 
 
-curl -o cli.sh https://raw.githubusercontent.com/CoffezimJs/viaproxy-termux-tool/main/cli.sh && chmod +x cli.sh && ./cli.sh
+curl -o cli.sh https://raw.githubusercontent.com/CoffezimJs/viaproxy-termux-tool/main/cli.sh && chmod +x cli.sh && dos2unix cli.sh && ./cli.sh
 
 
 if it doesn't work:
