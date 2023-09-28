@@ -11,3 +11,7 @@ just do the commands below
 curl -o cli.sh https://raw.githubusercontent.com/CoffezimJs/viaproxy-termux-tool/main/cli.sh && chmod +x cli.sh && ./cli.sh
 
 
+if it doesn't work
+dos2unix cli.sh
+
+
