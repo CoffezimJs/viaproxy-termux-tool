@@ -12,9 +12,11 @@ wget https://github.com/ViaVersion/ViaProxy/releases/download/v3.0.20/ViaProxy-3
 
 clear
 
-wget https://raw.githubusercontent.com/CoffezimJs/viaproxy-termux-tool/main/vp.sh
+wget https://github.com/ViaVersion/ViaProxy/releases/download/v3.0.21/ViaProxy-3.0.21.jar
 
 dos2unix vp.sh
+
+chmod +x vp.sh
 
 clear
 
