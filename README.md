@@ -10,6 +10,8 @@ just do the commands below
 
 curl -o cli.sh https://raw.githubusercontent.com/CoffezimJs/viaproxy-termux-tool/main/cli.sh && chmod +x cli.sh && dos2unix cli.sh && ./cli.sh
 
+cd Viaproxy && wget https://raw.githubusercontent.com/CoffezimJs/viaproxy-termux-tool/main/vp.sh 
+
 
 if it doesn't work:
 dos2unix cli.sh
