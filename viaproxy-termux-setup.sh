@@ -8,7 +8,7 @@ pkg install x11-repo -y && pkg install tigervnc -y && pkg install fluxbox -y
 # Cria o diretório e baixa o arquivo ViaProxy
 mkdir viaproxy 
 cd viaproxy
-wget https://github.com/ViaVersion/ViaProxy/releases/download/v3.0.20/ViaProxy-3.0.20.jar
+wget https://github.com/ViaVersion/ViaProxy/releases/download/v3.0.23/ViaProxy-3.0.23.jar
 
 # Abre o arquivo xstartup no nano
 nano ~/.vnc/xstartup <<EOF
