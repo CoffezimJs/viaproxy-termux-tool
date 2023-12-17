@@ -2,7 +2,7 @@
 
 # Atualiza os pacotes e instala o que é necessário
 pkg update -y 
-pkg install wget openjdk-17 
+pkg install wget openjdk-17 -y
 pkg install x11-repo -y && pkg install tigervnc -y && pkg install fluxbox -y
 
 # Cria o diretório e baixa o arquivo ViaProxy
@@ -24,7 +24,7 @@ EOF
 
 # After exiting nano, execute the commands
 cd \$HOME/Viaproxy
-vncserver -localhost
+vncserver -localhost:1
 export DISPLAY=:0
 fluxbox &
 echo Next, execute: java -jar ViaProxy
