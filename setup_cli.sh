@@ -8,7 +8,7 @@ pkg install wget -y
 
 mkdir viaproxy && cd viaproxy
 
-wget https://github.com/ViaVersion/ViaProxy/releases/download/v3.0.23/ViaProxy-3.0.23.jar
+wgethttps://github.com/ViaVersion/ViaProxy/releases/download/v3.1.0/ViaProxy-3.1.0.jar 
 
 clear
 
