@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "Enter the target IP:"
+echo "Enter the target IP and Port:"
 read target_ip
 
 echo "Enter the target port:"
