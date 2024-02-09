@@ -3,9 +3,6 @@
 echo "Enter the target IP and Port:"
 read target_ip
 
-echo "Enter the target port:"
-read target_port
-
 echo "Enter the version:"
 read version
 
