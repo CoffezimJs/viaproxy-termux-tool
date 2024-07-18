@@ -15,7 +15,7 @@ read use_online_mode
 echo "Use authentication? Y/n"
 read use_auth
 
-java_command="java -jar viaproxy.jar --bind_address 0.0.0.0:25568 --target_ip $target_ip --version $version"
+java_command="java -jar viaproxy.jar --bind_address 0.0.0.0:25568 --target_ip $target_ip --target-version $version"
 
 if [ "$use_legacy" == "Y" ] || [ "$use_legacy" == "y" ]; then
     java_command="$java_command --legacy_passthrough"
